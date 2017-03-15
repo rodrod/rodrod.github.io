@@ -1,18 +1,38 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: .:Roderick Rodriguez - Technology:.
-#email: your-email@domain.com
-description: > # My name is Roderick Rodriguez, during the day I am a Software Engineer. I build cool software using the Agile/Scrum processes and work on the full stack.  This site is dedicated to all things technology related.
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://rodrod.github.io" # the base hostname & protocol for your site
+title: Blog
+description: "Roderick Rodriguez Tech Blog"
+url: "http://rodrod.github.io"
+author:
+  name: "Roderick Rodriguez"
 github_username:  rodrod
 
 # Build settings
+#baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+version: "1.0.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
