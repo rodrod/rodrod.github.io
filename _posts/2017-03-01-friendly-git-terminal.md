@@ -3,7 +3,7 @@ title: Friendly Git Terminal
 description: Friendly Git Terminal
 header: Friendly Git Terminal
 ---
-I'm fairly new to using Git, I started using it on a regular basis in 2015.  I came from environments that used Microsoft TFS and SVN. When I first used it, I found it to be bit overwhelming but after consistently using it I have found it to be great tool for source control.  One of the things that has helped me be more proficient with it, is making the terminal more friendly.  
+I'm fairly new to using Git.  I started using it in late 2013.  When I first used it, I found it to be a bit overwhelming but after consistently using it, I have found it to be a great tool for source control.  On initial use in the terminal I was always asking myself "What branch am I on?" or "What directory am I looking at?" When looking at ```git log``` I would often say "It would be nice if this was easier to read."  One of the things that has helped me be more proficient with Git, is making the terminal friendlier.
 
 ### Improving the terminal prompt by adding the time, user, hostname, current directory, and branch
 
