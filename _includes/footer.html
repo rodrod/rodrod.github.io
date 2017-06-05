@@ -1,9 +1,15 @@
 <footer><span>
     <ul class="social-media-list">
           {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
+          <li>      
+            <a class="fa fa-github" href="https://github.com/{{ site.github_username }}"></a>
           </li>
           {% endif %}
-        </ul>
+
+          <li>
+          {% if site.linkedin_username %}
+              <a class="fa fa-linkedin" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"></a>
+          {% endif %}
+          </li>
+      </ul>
     </span></footer>

@@ -3,6 +3,7 @@ title: Agile Scrum Quick Reference
 description: Agile Scrum Quick Reference
 header: Agile Scrum Quick Reference
 author: Rod
+tags: [agile]
 ---
 Implementing a software development process is rarely quick.  Processes typically take time to iterate to find what works best for the teams.  This post is meant to be a quick reference to key terms and ceremonies in an Agile/Scrum software development processes.
 

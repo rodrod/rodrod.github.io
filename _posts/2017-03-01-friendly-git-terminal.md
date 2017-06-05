@@ -2,6 +2,7 @@
 title: Friendly Git Terminal
 description: Friendly Git Terminal
 header: Friendly Git Terminal
+tags: [git]
 ---
 I'm fairly new to using Git, I started using it on a regular basis in 2015.  I came from environments that used Microsoft TFS and SVN. When I first used it, I found it to be bit overwhelming but after consistently using it I have found it to be great tool for source control.  One of the things that has helped me be more proficient with it, is making the terminal more friendly.  
 
